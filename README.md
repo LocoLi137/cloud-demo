@@ -2,17 +2,32 @@ a demo project about how to use spring cloud
 
 module<br>
 - [cloud-api-commons](cloud-api-commons)
+  - 公共模块，包含对外接口、公共实体类、统一异常、统一返回
 - [cloud-consumer-feign-order80](cloud-consumer-feign-order80)
+  - openFeign 远程调用 订单模块
 - [cloud-consumer-order80](cloud-consumer-order80)
+  - 普通订单模块
 - [cloud-gateway9527](cloud-gateway9527)
+  - 网关
 - [cloud-provider-payment8001](cloud-provider-payment8001)
+  - 业务模块8001
 - [cloud-provider-payment8002](cloud-provider-payment8002)
+  - 业务模块8002
 - [cloudalibaba-config-nacos-client3377](cloudalibaba-config-nacos-client3377)
+  - nacos client
 - [cloudalibaba-consumer-nacos-order83](cloudalibaba-consumer-nacos-order83)
+  - nacos consumer
 - [cloudalibaba-provider-payment9001](cloudalibaba-provider-payment9001)
+  - nacos 业务模块9001
 - [cloudalibaba-sentinel-gateway9528](cloudalibaba-sentinel-gateway9528)
+  - 限流
 - [cloudalibaba-sentinel-service8401](cloudalibaba-sentinel-service8401)
+  - 限流
 - [mybatis_generator2024](mybatis_generator2024)
+  - 业务模型生成
 - [seata-account-service2003](seata-account-service2003)
+  - 事务
 - [seata-order-service2001](seata-order-service2001)
+  - 事务
 - [seata-storage-service2002](seata-storage-service2002)
+  - 事务
